@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "raktapyas.clock",
+  "name": "raktapyas.clock",
+  "version": "0.2.0",
+  "description": "Bikram Sambat calendar for the Omarchy bar, by raktapyas",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "raktapyas.clock",
+    "description": "Bikram Sambat date, BS month grid, and Nepali progress rails",
+    "category": "Time",
+    "allowMultiple": false,
+    "defaultSection": "center"
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.clock"
+  }
+}
